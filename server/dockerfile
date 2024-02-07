@@ -1,6 +1,6 @@
 FROM python:3.12
 
-RUN pip install Flask gunicorn firebase_admin pycryptodome==3.10.1 pyrebase
+RUN pip install Flask gunicorn firebase_admin pycryptodome==3.10.1 pyrebase4
 
 COPY src/ /app
 WORKDIR /app
